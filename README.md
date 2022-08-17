@@ -1,5 +1,5 @@
 # OpCon documentation report
-Creates an HTML report of OpCon schedule/job documentation
+Creates a collapsible HTML report of OpCon schedule/job documentation
 
 ![Report](OpConDocs.png)
 
