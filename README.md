@@ -1,6 +1,8 @@
 # OpCon documentation report
 Creates an HTML report of OpCon schedule/job documentation
 
+![Report](OpConDocs.png)
+
 # Prerequisites
   * Powershell 5+
   * Access to the SQL Server where the OpCon db is located
