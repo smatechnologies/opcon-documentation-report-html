@@ -2,12 +2,20 @@
 Creates an HTML report of OpCon schedule/job documentation
 
 # Prerequisites
--Powershell 5+
--Access to the SQL Server where the OpCon db is located
+  * Powershell 5+
+  * Access to the SQL Server where the OpCon db is located
 
 # Instructions
-
-
+  * <b>path</b> - Path to output the report
+  * <b>sqlserver</b> - SQL Server where the OpCon db is located
+  * <b>sqlDB</b> - OpCon database name
+  * <b>sqluser</b> - SQL user name
+  * <b>sqlpassword</b> - SQL password (use OpCon encrypted property) 
+  
+Example:
+```
+powershell.exe -ExecutionPolicy Bypass -File "C:\OpCon_Documentation.ps1" -path "C:\opcondocs.html" -sqlserver "SQLprod" -sqldb "opconxps" -sqluser "dba1" -sqlpassword "**********"
+```
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
